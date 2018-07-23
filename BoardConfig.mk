@@ -48,3 +48,7 @@ TARGET_2ND_CPU_VARIANT := kyro
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := Nokia8,nokia8,Nokia_8,nokia_8,NB1,nb1,Nokia_NB1,nokia_nb1,nokia_NB1,Nokia_nb1,Nokia_Eight,Nokia_eight,nokia_eight,nokia_Eight
+
+# Prebuilt
+TARGET_PREBUILT_KERNEL := $(DEVICE_FOLDER)/prebuilt/Image.gz-dtb
+TARGET_PREBUILT_RECOVERY_KERNEL := $(DEVICE_FOLDER)/prebuilt/Image.gz-dtb
