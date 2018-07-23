@@ -20,3 +20,7 @@
 # included in a build is to use PRODUCT_PACKAGES in a product
 # definition file).
 #
+
+#
+DEVICE_FOLDER := device/nokia/NB1
+#

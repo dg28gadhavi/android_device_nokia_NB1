@@ -14,5 +14,8 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_NB1.mk
+PRODUCT_DEVICE := NB1
+PRODUCT_NAME := omni_NB1
+PRODUCT_BRAND := Nokia
+PRODUCT_MODEL := NB1
+PRODUCT_MANUFACTURER := Nokia
