@@ -37,6 +37,22 @@ $(call inherit-product, build/target/product/verity.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/platform/soc/1da4000.ufshc/by-name/frp
 
+# A/B updater
+AB_OTA_UPDATER := true
+
+AB_OTA_PARTITIONS += \
+    boot \
+    system \
+    keymaster \
+    splash
+
+# A/B OTA packages
+PRODUCT_PACKAGES += \
+    otapreopt_script \
+    update_engine \
+    update_engine_sideload \
+    update_verifier
+
 PRODUCT_DEVICE := NB1
 PRODUCT_NAME := omni_NB1
 PRODUCT_BRAND := Nokia
