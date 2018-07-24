@@ -37,6 +37,10 @@ $(call inherit-product, build/target/product/verity.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/platform/soc/1da4000.ufshc/by-name/frp
 
+# Partitions (listed in the file) to be wiped under recovery.
+TARGET_RECOVERY_WIPE := \
+    device/nokia/NB1/recovery.wipe.common
+
 # A/B updater
 AB_OTA_UPDATER := true
 
