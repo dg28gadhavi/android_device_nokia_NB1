@@ -41,6 +41,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 TARGET_RECOVERY_WIPE := \
     device/nokia/NB1/recovery.wipe.common
 
+# ROM fstab
+PRODUCT_COPY_FILES += \
+  device/nokia/NB1/rootdir/root/fstab.qcom:root/fstab.qcom
+
 # A/B updater
 AB_OTA_UPDATER := true
 
