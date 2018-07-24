@@ -78,6 +78,10 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libgptutils \
     libz
 
+# Statically linked toybox for modprobe in recovery mode
+PRODUCT_PACKAGES += \
+    toybox_static
+
 PRODUCT_DEVICE := NB1
 PRODUCT_NAME := omni_NB1
 PRODUCT_BRAND := Nokia
