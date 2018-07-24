@@ -1,0 +1,13 @@
+ro.hardware=qcom
+ro.treble.enabled=false
+persist.sys.usb.config=mtp,adb,mass_storage
+ro.oem_unlock_supported=true
+ro.build.type=user
+ro.build.user=cm
+ro.build.host=cm-build-28
+ro.build.tags=release-keys
+ro.product.name=NB1_00WW_FIH
+ro.vendor.product.device=NB1
+ro.build.flavor=NB1_00WW_FIH-user
+ro.bootimage.build.fingerprint=Nokia/NB1_00WW_FIH/NB1:8.1.0/OPR1.170623.026/00WW_4_88C:user/release-keys
+ro.product.locale=en-US
