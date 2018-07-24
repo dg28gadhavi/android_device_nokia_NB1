@@ -53,6 +53,27 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+# A/B OTA dexopt update_engine hookup
+AB_OTA_POSTINSTALL_CONFIG += \
+    RUN_POSTINSTALL_system=true \
+    POSTINSTALL_PATH_system=system/bin/otapreopt_script \
+    FILESYSTEM_TYPE_system=ext4 \
+    POSTINSTALL_OPTIONAL_system=true
+
+# The following modules are included in debuggable builds only.
+PRODUCT_PACKAGES_DEBUG += \
+    bootctl \
+    update_engine_client
+
+# Boot control HAL
+PRODUCT_PACKAGES += \
+    bootctrl.msm8998
+
+PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+    bootctrl.msm8998
+    libgptutils \
+    libz
+
 PRODUCT_DEVICE := NB1
 PRODUCT_NAME := omni_NB1
 PRODUCT_BRAND := Nokia
