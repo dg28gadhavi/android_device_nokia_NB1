@@ -29,6 +29,10 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Build configuration for a very minimal build
 $(call inherit-product, build/target/product/embedded.mk)
 
+# Setup dm-verity configs
+PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc/1da4000.ufshc/by-name/system
+$(call inherit-product, build/target/product/verity.mk)
+
 PRODUCT_DEVICE := NB1
 PRODUCT_NAME := omni_NB1
 PRODUCT_BRAND := Nokia
