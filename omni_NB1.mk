@@ -82,6 +82,11 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
 PRODUCT_PACKAGES += \
     toybox_static
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    charger
+
 PRODUCT_DEVICE := NB1
 PRODUCT_NAME := omni_NB1
 PRODUCT_BRAND := Nokia
