@@ -109,6 +109,8 @@ TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone1/temp"
 RECOVERY_NEED_SELINUX_FIX := true
 
 # Recovery
+TWRP_NEW_THEME := true
+TW_THEME := portrait_hdpi
 TW_INCLUDE_FB2PNG := true
 TW_SCREEN_BLANK_ON_BOOT := true
 BOARD_HAS_NO_REAL_SDCARD := true
