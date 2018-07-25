@@ -127,6 +127,8 @@ TARGET_RECOVERY_QCOM_RTC_FIX := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 AB_OTA_UPDATER := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
+TARGET_RECOVERY_DEVICE_MODULES += android.hardware.boot@1.0
+TW_RECOVERY_ADDITIONAL_RELINK_FILES := out/target/product/NB1/system/lib64/android.hardware.boot@1.0.so
 
 # Debug
 TWRP_INCLUDE_LOGCAT := true
