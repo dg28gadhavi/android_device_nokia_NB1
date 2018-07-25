@@ -99,6 +99,9 @@ service keymaster-3-0 /sbin/android.hardware.keymaster@3.0-service
     disabled
     seclabel u:r:recovery:s0
 
+on boot
+    setprop sys.usb.config mtp,adb,mass_storage
+
 on init
     start hwservicemanager
     start boot-1-0
