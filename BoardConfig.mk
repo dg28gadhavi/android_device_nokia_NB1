@@ -107,3 +107,6 @@ TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone1/temp"
 
 # Selinux
 RECOVERY_NEED_SELINUX_FIX := true
+
+# Recovery
+TW_INCLUDE_FB2PNG := true
