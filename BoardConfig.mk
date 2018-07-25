@@ -84,3 +84,6 @@ BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 # Qcom
 ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
+
+# Workaround for error copying vendor files to recovery ramdisk
+TARGET_COPY_OUT_VENDOR := system/vendor
