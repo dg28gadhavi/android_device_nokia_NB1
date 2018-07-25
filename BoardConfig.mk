@@ -87,3 +87,8 @@ ENABLE_SCHEDBOOST := true
 
 # Workaround for error copying vendor files to recovery ramdisk
 TARGET_COPY_OUT_VENDOR := system/vendor
+
+# Crypto
+TW_INCLUDE_CRYPTO := true
+TARGET_HW_DISK_ENCRYPTION = true
+TW_INCLUDE_FBE := true
