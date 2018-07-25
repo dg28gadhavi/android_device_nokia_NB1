@@ -95,3 +95,10 @@ TW_INCLUDE_FBE := true
 
 # GPT Utils
 BOARD_PROVIDES_GPTUTILS := true
+
+# Graphics
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
+TARGET_RECOVERY_LCD_BACKLIGHT_PATH := /sys/class/leds/lcd-backlight/brightness
+BRIGHTNESS_SYS_FILE := /sys/class/leds/lcd-backlight/brightness
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+
