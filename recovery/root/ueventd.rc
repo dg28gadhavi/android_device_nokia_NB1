@@ -120,6 +120,10 @@ subsystem sound
 /dev/usb_accessory        0660   root       usb
 /dev/tun                  0660   system     vpn
 
+# Qseecom
+/dev/qseecom              0660   system     drmrpc
+/dev/qsee_ipc_irq_spss    0660   system     drmrpc
+
 # CDMA radio interface MUX
 /dev/ts0710mux*           0640   radio      radio
 /dev/ppp                  0660   radio      vpn
