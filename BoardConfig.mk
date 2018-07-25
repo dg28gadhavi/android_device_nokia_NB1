@@ -104,3 +104,6 @@ RECOVERY_GRAPHICS_USE_LINELENGTH := true
 
 # Temperature
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone1/temp"
+
+# Selinux
+RECOVERY_NEED_SELINUX_FIX := true
