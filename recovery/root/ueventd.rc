@@ -134,3 +134,6 @@ subsystem sound
 
 # DVB API device nodes
 /dev/dvb*                 0660   root       system
+
+# Add device block for FRP
+/dev/block/bootdevice/by-name/frp       0600   system     system
