@@ -81,6 +81,9 @@ TARGET_USES_MKE2FS := true
 BOARD_ROOT_EXTRA_FOLDERS := bt_firmware dsp firmware persist odm
 BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 
+# For the love of all that is holy, please do not include this in your ROM unless you really want TWRP to not work correctly!
+BOARD_KERNEL_CMDLINE += androidboot.fastboot=1
+
 # Qcom
 ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
