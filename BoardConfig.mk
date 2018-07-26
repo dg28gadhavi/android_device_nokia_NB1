@@ -35,16 +35,16 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno540
 
 # Architecture
 TARGET_ARCH := arm64
-TARGET_ARCH_VARIANT := kyro
+TARGET_ARCH_VARIANT := armv8-a
 TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_ABI2 :=
-TARGET_CPU_VARIANT := kryo
+TARGET_CPU_VARIANT := cortex-a73
 
 TARGET_2ND_ARCH := arm
 TARGET_2ND_ARCH_VARIANT := armv7-a-neon
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
-TARGET_2ND_CPU_VARIANT := kyro
+TARGET_2ND_CPU_VARIANT := cortex-a73
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := Nokia8,nokia8,Nokia_8,nokia_8,NB1,nb1,Nokia_NB1,nokia_nb1,nokia_NB1,Nokia_nb1,Nokia_Eight,Nokia_eight,nokia_eight,nokia_Eight

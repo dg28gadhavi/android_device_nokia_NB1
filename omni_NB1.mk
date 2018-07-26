@@ -78,7 +78,7 @@ PRODUCT_PACKAGES += \
     bootctrl.msm8998
 
 PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.msm8998
+    bootctrl.msm8998 \
     libgptutils \
     libz
 
