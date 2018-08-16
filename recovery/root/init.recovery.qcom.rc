@@ -106,6 +106,9 @@ on boot
     setprop sys.usb.config mtp,adb,mass_storage
 
 on init
+    setprop ro.hardware.keystore msm8998
+    setprop ro.hardware.gatekeeper msm8998
+    setprop ro.hardware.bootctrl msm8998
     start hwservicemanager
     start boot-1-0
     start prepdecrypt
