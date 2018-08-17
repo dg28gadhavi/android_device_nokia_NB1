@@ -35,6 +35,9 @@ on fs
     chown system drmrpc /dev/qseecom
     chmod 0664 /dev/ion
     chown system system /dev/ion
+    setprop ro.hardware.bootctrl msm8998
+    setprop ro.build.system_root_image true
+    export LD_LIBRARY_PATH /sbin:/vendor/lib64:/vendor/lib64/hw
     install_keyring
 
 
@@ -109,6 +112,7 @@ on init
     setprop ro.hardware.keystore msm8998
     setprop ro.hardware.gatekeeper msm8998
     setprop ro.hardware.bootctrl msm8998
+    setprop ro.build.system_root_image true
     start hwservicemanager
     start boot-1-0
     start prepdecrypt
