@@ -55,6 +55,7 @@ Front Camera | 	13 MP, f/2.0, 1.12µm, PDAF,2160p
  * Dees-Troy
  * HikariCalyx
  * sjrmac
+ * bidhata
  * cosmicdan
  * wuxianlin
  * dg28gadhavi
