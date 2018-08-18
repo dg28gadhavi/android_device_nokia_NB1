@@ -32,21 +32,21 @@ Front Camera | 	13 MP, f/2.0, 1.12µm, PDAF,2160p
 # Build Information
 
 ### Working:
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
+ * Backup/Restore
+ * Encryption/Decryption
+ * Wiping/Format Data
+ * System Image Flashing
+ * Image Backup/Flashing
+ * OTG
+ * MTP
+ * Logd/Logcat
+ * Adb sideload
+ * Adb backup
+ * Rebooting
 
 ### Bugs:
- * 
+ * Slot Switching ( Should be fixed now but have 
+to test it again to confirm )
  
 ### Thanks to:
  * TeamWin Team
